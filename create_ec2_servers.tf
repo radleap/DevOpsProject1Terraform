@@ -31,6 +31,7 @@ provider "aws" {
 resource "aws_instance" "terra-ec2-testing" {
  ami = "ami-0e472ba40eb589f49"
  instance_type = "t2.micro"
+ key_name = "Edureka-1-NVa"
  tags = {Name = "terra-ec2-testing"}
  provisioner "local-exec" {
    command = "echo ${self.public_ip} >> ec2_public_ips_test.txt"
@@ -41,6 +42,7 @@ resource "aws_instance" "terra-ec2-testing" {
 resource "aws_instance" "terra-ec2-production" {
  ami = "ami-0e472ba40eb589f49"
  instance_type = "t2.micro"
+ key_name = "Edureka-1-NVa"
  tags = {Name = "terra-ec2-production"}
  provisioner "local-exec" {
    command = "echo ${self.public_ip} >> ec2_public_ips_prod.txt"
