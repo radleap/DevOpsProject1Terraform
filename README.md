@@ -1,7 +1,7 @@
 # DevOps CICD
 
 ##  Project Overview
-- See https//:github.com/radleap/DevOpsProject1Ansible.git 
+- See https://github.com/radleap/DevOpsProject1Ansible.git 
 
 ## General:
 - This houses the terraform IaC files.
