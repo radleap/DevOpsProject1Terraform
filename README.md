@@ -7,8 +7,7 @@
 - This houses the terraform IaC files.
 	- .tf files to use procurement via AWS of servers (EC2 instances)
 	- Configuration details such as AMI, key (.pem), and region given.
-	- Need existing AWS account, access key, secrets, ...
-	- 
+	- Need existing AWS account, access key, secrets, ... 
 	- Container Dockerfile for image and container creation
 	- Container runtime exposes index.html on port 80.  
 - This integrates with Jenkins via the plug and Jenkinsfile/playbooks.
