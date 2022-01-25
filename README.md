@@ -1,7 +1,7 @@
 # DevOps CICD
 
 ##  Project Overview
-- See https:github.com/radleap/DevOpsProject1Ansible.git 
+- See https//:github.com/radleap/DevOpsProject1Ansible.git 
 
 ## General:
 - This houses the terraform IaC files.
@@ -20,5 +20,8 @@
 	- procure or change state.
 - sudo terraform destroy
 	- destory resources created. 
+
+## InfoSec Notes:
+- All EC2s, IP addresses, keys/secrets, etc... have been rotated/destroyed.
 
 ![EC2 Instances](https://github.com/radleap/DevOpsProject1Ansible/blob/main/images/img_aws_ec2_instance.JPG)
